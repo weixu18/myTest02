@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* flex中有 属性：direction方向, wrap 是否换行，gap间距 */
+
+        /* direction 主轴对齐方式
+
+        wrap 是否换行
+
+        gap 间距
+
+        justify-content 主轴对齐方式
+
+        align-items  交叉轴对齐方式
+
+
+        align-content  */
+
+        .flex-container {
+            background-color: #2196F3;
+            display: flex;
+            flex-direction: row;
+            /* row-gap: 20px; */
+            /* column-gap: 30px; */
+            /* flex-wrap: wrap */
+
+        }
+        .flex-item {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+            width: 80px;
+        }
+
+        .flex-item {
+            flex:1
+        }
+
+        /* .flex-item1{
+            flex: 1;
+        }
+
+        .flex-item2{
+            flex: 1;
+        }
+
+        .flex-item3{
+            flex: 1;
+        } */
+        /* .flex-item4{
+            order: 4;
+            flex-shrink: 1;
+        }
+        .flex-item5{
+            order: 5;
+            flex-shrink: 1;
+        }
+        .flex-item6{
+            order: 6;
+            flex-shrink: 1;
+        }
+        .flex-item7{
+            order: 7;
+            flex-shrink: 1;
+        }
+
+        .flex-item8{
+            order: 8;
+            flex-shrink: 1;
+        }
+
+        .flex-item9{
+            order: 9;
+            flex-shrink: 1;
+        } */
+
+
+    </style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="flex-item flex-item1">1</div>
+        <div class="flex-item flex-item2">2</div>
+        <div class="flex-item flex-item3">3</div>
+        <div class="flex-item flex-item4">4</div>
+        <div class="flex-item flex-item5">5</div>
+        <div class="flex-item flex-item6">6</div>
+        <div class="flex-item flex-item7">7</div>
+        <div class="flex-item flex-item8">8</div>
+        <div class="flex-item flex-item9">9</div>
+    </div>
+
+    <!-- <div class="flex-container">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+        <div class="flex-item">5</div>
+        <div class="flex-item">6</div>
+        <div class="flex-item">7</div>
+        <div class="flex-item">8</div>
+        <div class="flex-item">9</div>
+    </div> -->
+</body>
+
+</html>
